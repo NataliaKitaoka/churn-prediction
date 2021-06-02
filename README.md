@@ -3,12 +3,16 @@ This Jupyter notebook aims to evaluate a Customer churn dataset, its triggers an
 
 # 1. Installation
 The Python version was updated to Python 3.8.5 here. And other modules and functions were used like:
--sklearn.preprocessing > MinMaxScaler
--sklearn.linear_model > LogisticRegression
--sklearn.model_selection > train_test_split
--sklearn.metrics > confusion_matrix
--seaborn
--awswrangler
+   -sklearn.preprocessing > MinMaxScaler
+   -sklearn.linear_model > LogisticRegression
+   -sklearn.model_selection > train_test_split
+   -sklearn.metrics > confusion_matrix
+   -seaborn
+   -awswrangler
+   
+The dataset for this project can be downloaded after installing Kaggle API (https://github.com/Kaggle/kaggle-api). To download the Customer-churn-dataset-2020 the following bash command has to be written:
+"Kaggle competitions download -c customer-churn-prediction-2020"
+The link for this Kaggle competition with the data description can be found bellow in Acnowledgments. 
 
 # 2. Project Motivation
 This project is part of a selective process of Clin/Devexo data scientist position. The challenge was given to solve a Kaggle competion from 2020. The goal was to implement and visualize stats and inferences from the customer churn dataset of a telecom provider in USA.
@@ -36,5 +40,5 @@ Methodology - CRISP-DM:
 # 5. Results
    The results obtined untill now showed that the disbalanced training datased probabily resulted in a model with overfitting. Future implementations and balancing of the data will be done to improve the model building. 
 
-# 4. Licensing, Authors, Acknowledgments  
-I would like to thank to Kaggle for providing the dataset used in this project and it can be originally find in a Kaggle 2020 competition [here](https://www.kaggle.com/c/customer-churn-prediction-2020/overview).
+# 6. Licensing, Authors, Acknowledgments  
+I would like to thank to Kaggle for providing the dataset used in this project and it can be originally find in a Kaggle 2020 competition [here](https://www.kaggle.com/c/customer-churn-prediction-2020/overview). And I also would like to thanks to Clin/Devexo for this challenging oppotunity.
