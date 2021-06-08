@@ -17,7 +17,7 @@ The link for this Kaggle competition with the data description can be found bell
 # 2. Project Motivation
 This project is part of a selective process of Clin/Devexo data scientist position. The challenge was given to solve a Kaggle competion from 2020. The goal was to implement and visualize stats and inferences from the customer churn dataset of a telecom provider in USA.
 
-# 4. How To Interact With Your Project 
+# 4. How To Interact With the Project 
 Methodology - CRISP-DM:
     The followed steps were used to infer the answer the proposed problem of churn in the Kaggle dataset proposed by Clin/Devexo company to its selective process. 
 
